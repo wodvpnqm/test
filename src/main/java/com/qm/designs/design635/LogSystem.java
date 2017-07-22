@@ -140,8 +140,6 @@ public class LogSystem {
 		int mid = start + (end - start)/2;
 		if(array[mid].value < target){
 			return findGreaterOrEqualsThanTarget(array,target,mid+1,end);
-		}else if(){
-			
 		}
 		return 0;
 	}
